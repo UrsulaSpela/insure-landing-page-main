@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/*------- MAIN ------- */
+#main {
+  width: 1440px;
+  height: 2430px;
+}
+/*------ HEADER ------ */
+header {
+  height: 675px;
+}
+/*------- ABOUT SECTION --------*/
+#about-container {
+  height: 1345px;
+}
+/*------ FOOTER --------*/
+footer {
+  height: 390px;
+}
