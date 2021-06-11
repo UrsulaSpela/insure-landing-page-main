@@ -18,11 +18,83 @@ body {
 header {
   height: 675px;
 }
+nav {
+  height: 80px;
+  font-family: "Karla", sans-serif;
+  display: flex;
+  justify-content: flex-end;
+  text-transform: uppercase;
+  padding: 20px 160px;
+  align-items: center;
+  background: url(images/logo.svg) no-repeat;
+  background-position: 12% 50%;
+}
+nav a {
+  margin-right: 25px;
+  text-decoration: none;
+  color: gray;
+  font-weight: 700;
+}
+nav a:hover {
+  color: hsl(256, 26%, 20%);
+}
+#btn-nav {
+  width: 145px;
+  height: 40px;
+  border: 2px solid black;
+  background: white;
+  letter-spacing: 2px;
+  font-weight: 700;
+}
+#btn-nav:hover {
+  color: white;
+  background: hsl(256, 26%, 20%);
+}
+#header-main {
+  width: 1440px;
+  height: 595px;
+  background: hsl(256, 26%, 20%);
+  padding: 100px 160px;
+  display: flex;
+}
+#header-left {
+  padding-right: 30px;
+  color: hsl(0, 0%, 98%);
+}
+hr {
+  border: 0.5px solid white;
+  width: 145px;
+}
+h1 {
+  font-size: 65px;
+  line-height: 65px;
+  font-family: "DM Serif Display", serif;
+  margin: 60px 0 20px 0;
+  padding-right: 50px;
+}
+header p {
+  font-family: "Karla", sans-serif;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+#btn-plans {
+  width: 145px;
+  height: 40px;
+  border: 2px solid hsl(0, 0%, 98%);
+  color: hsl(0, 0%, 98%);
+  background: hsl(256, 26%, 20%);
+}
+#btn-plans:hover {
+  background: hsl(0, 0%, 98%);
+  color: hsl(256, 26%, 20%);
+}
 /*------- ABOUT SECTION --------*/
 #about-container {
   height: 1345px;
+  padding: 20px 160px;
 }
 /*------ FOOTER --------*/
 footer {
   height: 390px;
+  padding: 20px 160px;
 }
