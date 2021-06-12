@@ -14,6 +14,9 @@ body {
   width: 1440px;
   height: 2430px;
 }
+.mobile {
+  display: none;
+}
 /*------ HEADER ------ */
 header {
   height: 675px;
@@ -158,4 +161,94 @@ h2 {
 footer {
   height: 390px;
   padding: 20px 160px;
+  background: hsl(0, 0%, 98%) url(images/bg-pattern-footer-desktop.svg)
+    no-repeat;
+  font-size: 14px;
+  font-family: "Karla", sans-serif;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+#foot-top {
+  height: 120px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 60px;
+}
+#social img {
+  margin-left: 15px;
+}
+#foot-hr {
+  border: 0.5px solid gray;
+  margin-bottom: 45px;
+}
+#foot-bottom {
+  display: flex;
+  text-transform: uppercase;
+}
+.bottom-item {
+  display: flex;
+  flex-direction: column;
+  margin-right: 150px;
+}
+h4 {
+  color: gray;
+  margin-bottom: 30px;
+}
+.bottom-item a {
+  text-decoration: none;
+  color: hsl(256, 26%, 20%);
+  margin-bottom: 15px;
+}
+@media only screen and (max-width: 375px) {
+  #main {
+    width: 375px;
+    height: 3900px;
+  }
+  header {
+    width: 375px;
+    height: 1030px;
+  }
+  .desktop,
+  #header-hr,
+  nav a,
+  #btn-nav {
+    display: none;
+  }
+  .mobile {
+    display: block;
+  }
+  #header-main {
+    flex-direction: column-reverse;
+    width: 375px;
+    height: 950px;
+    padding: 0;
+  }
+  #header-left {
+    height: 500px;
+    text-align: center;
+    padding: 30px 25px;
+  }
+  h1 {
+    font-size: 2.5em;
+    line-height: 1em;
+    width: 375px;
+  }
+  /*-------------------*/
+  #about-container {
+    width: 375px;
+    height: 1800px;
+    text-align: center;
+    padding: 50px 25px;
+  }
+  #about-grid {
+    flex-direction: column;
+  }
+  .about-item {
+    height: 250px;
+    margin-bottom: 50px;
+  }
+  #how-we-work {
+    width: 325px;
+    height: 425px;
+  }
 }
