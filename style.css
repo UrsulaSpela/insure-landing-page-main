@@ -228,7 +228,7 @@ h4 {
     text-align: center;
     padding: 30px 25px;
   }
-  h1 {
+  header h1 {
     font-size: 2.5em;
     line-height: 1em;
     width: 375px;
@@ -250,5 +250,35 @@ h4 {
   #how-we-work {
     width: 325px;
     height: 425px;
+    flex-direction: column;
+  }
+  #about-container h1 {
+    font-size: 2.5em;
+    line-height: normal;
+    padding: 50px 0;
+    margin: 0;
+    width: 260px;
+  }
+  /* ------- FOOTER ----*/
+  footer {
+    width: 375px;
+    height: 1025px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    text-align: center;
+  }
+  #foot-top {
+    flex-direction: column;
+    width: 100%;
+  }
+  #foot-bottom {
+    flex-direction: column;
+  }
+  #social {
+    display: flex;
+  }
+  .bottom-item {
+    margin: none;
   }
 }
