@@ -17,6 +17,10 @@ body {
 .mobile {
   display: none;
 }
+button {
+  letter-spacing: 2px;
+  font-weight: 700;
+}
 /*------ HEADER ------ */
 header {
   height: 675px;
@@ -267,13 +271,21 @@ h4 {
     flex-direction: column;
     padding: 25px;
     text-align: center;
+    justify-content: center;
   }
   #foot-top {
     flex-direction: column;
-    width: 100%;
+    width: 145px;
+    align-self: center;
+    margin-bottom: 20px;
   }
   #foot-bottom {
     flex-direction: column;
+    align-self: center;
+    width: 375px;
+    text-align: center;
+    position: relative;
+    left: 70px;
   }
   #social {
     display: flex;
